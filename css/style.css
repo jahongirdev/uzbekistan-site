@@ -169,7 +169,7 @@ ul {
     font-size: 40px;
     font-family: 'Bebas Neue', sans-serif;
     margin-bottom: 20px;
-    color: #000000;
+    color: #ffffff;
 }
 .site-socials-ul {
     display: flex;
@@ -189,4 +189,56 @@ ul {
 }
 .footer-menu-link {
     color: #fff;
+}
+
+/* RESPONSIVE STYLES */
+@media (max-width: 1200px) {
+    .container {
+        max-width: 900px;
+    }
+    .site-news-parent {
+        gap: 10px;
+    }
+    .site-news-child img {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 950px) {
+    .site-news-title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .site-news-parent {
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        margin: 10px 70px;
+    }
+    .site-regions-title {
+        text-align: center;
+    }
+}
+@media (max-width: 800px) {
+    iframe {
+        width: 500px;
+        height: 280px;
+    }
+    .site-regions-parent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media (max-width: 650px) {
+    .site-navbar {
+        display: none;  
+    }
+}
+@media (max-width: 600px) {
+    iframe {
+        width: 400px;
+        height: 230px;
+    }
 }
