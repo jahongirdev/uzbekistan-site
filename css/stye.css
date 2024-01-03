@@ -1,0 +1,75 @@
+/* GLOBAL */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #000;
+    background-color: #fff;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+/* HEADER */
+.site-logo-img {
+    object-fit: cover;
+    height: 50px;
+}
+.site-navbar-menu {
+    list-style: none;
+}
+.site-navbar-menu-link {
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+/* HERO */
+.site-hero {
+    background-color: skyblue;
+}
+.site-hero-content-text {
+    font-size: 60px;
+}
+.site-hero-content-link {
+    text-decoration: none;
+    color: #fff;
+}
+/* NEWS */
+.site-news-title, .site-regions-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+}
+.site-news-child img {
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
+}
+/* SITE-VDEO */
+.site-video {
+    background-color: aqua;
+}
+/* VILOYATLAR */
+.site-regions-ul {
+    list-style: none;
+}
+.site-regions-ul-li-link {
+    font-size: 24px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    color: #303030;
+}
+/* SOCIALS */
+.site-socials {
+    background-color: rebeccapurple;
+}
