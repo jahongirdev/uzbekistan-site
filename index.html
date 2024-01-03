@@ -18,6 +18,10 @@
                 <a href="#" class="site-logo">
                     <img src="img/logo-black.svg" class="site-logo-img" alt="O'zbekiston sayti logotipi" />
                 </a>
+                <!-- Responsive menu icon -->
+                <button class="mobile-menu-icon" onclick="openNav()">
+                    <img src="img/menu-icon.svg" alt="Menu Icon">
+                </button>
                 <!-- Navbar -->
                 <nav class="site-navbar">
                     <ul class="site-navbar-menu">
@@ -159,6 +163,10 @@
                     <a href="#" class="site-logo">
                         <img src="img/logo-white.svg" class="site-logo-img" alt="O'zbekiston sayti logotipi" />
                     </a>
+                    <!-- Responsive menu icon -->
+                    <button class="mobile-menu-icon" onclick="openNav()">
+                        <img src="img/menu-icon.svg" alt="Menu Icon">
+                    </button>
                     <!-- Navbar -->
                     <nav class="site-navbar">
                         <ul class="site-navbar-menu">
@@ -171,5 +179,16 @@
                 </div>
             </div>
         </footer>
+
+        <!-- Responsive menu -->
+        <div id="mySidenav" class="sidenav" style="width: 0px;">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+            <a href="#">Bosh sahifa</a>
+            <a href="#">Yangiliklar</a>
+            <a href="#">Aloqa</a>
+            <a href="#">Ma'lumotlar</a>
+        </div>
+
+        <script src="./js/main.js"></script>
 </body>
 </html>
