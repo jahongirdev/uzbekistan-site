@@ -1,3 +1,3 @@
 Uzbekistan Landing Page website
 
-Live view: 
+Live view: https://uzbsite.netlify.app/
