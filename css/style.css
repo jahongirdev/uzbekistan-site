@@ -134,24 +134,56 @@ ul {
     padding: 150px 0px;
 }
 /* VILOYATLAR */
+.site-regions-title {
+    margin-top: 40px;
+}
+.site-regions-parent {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
 .site-regions-ul {
     list-style: none;
+}
+.site-regions-ul-li {
+    margin: 15px 0px;
 }
 .site-regions-ul-li-link {
     font-size: 24px;
     font-family: 'Bebas Neue', sans-serif;
     text-transform: uppercase;
-    color: #303030;
+    color: #404040;
+}
+.site-regions-ul-li-link:hover {
+    color: #000;
 }
 /* SOCIALS */
 .site-socials {
-    background-color: rebeccapurple;
+    background-color: rgb(55, 55, 55);
+    text-align: center;
+    padding: 50px 0px;
 }
 .site-socials-title {
     font-size: 40px;
     font-family: 'Bebas Neue', sans-serif;
+    margin-bottom: 20px;
+}
+.site-socials-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 /* FOOTER */
 .site-footer {
     background-color: rgb(19, 19, 19);
+    padding: 40px 0px;
+}
+.site-footer-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-menu-link {
+    color: #fff;
 }
