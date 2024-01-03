@@ -159,7 +159,9 @@ ul {
 }
 /* SOCIALS */
 .site-socials {
-    background-color: rgb(55, 55, 55);
+    background: url('../img/social-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     padding: 50px 0px;
 }
@@ -167,6 +169,7 @@ ul {
     font-size: 40px;
     font-family: 'Bebas Neue', sans-serif;
     margin-bottom: 20px;
+    color: #000000;
 }
 .site-socials-ul {
     display: flex;
